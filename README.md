@@ -7,8 +7,16 @@ A machine learning application that predicts house prices using a regression mod
 - python (>= 3.13)
 - [poetry](https://python-poetry.org/docs/)
 
-To install dependencies, run the following command:
+Install dependencies
 
 ```shell
 poetry install --no-root
+```
+
+## Usage
+
+Run the application
+
+```shell
+poetry run python train_model.py
 ```
